@@ -27,7 +27,7 @@ def game(lifes):
         except:
             print(
                 "\n Only letters dont be a don't be a cheater, no numbers or empty spaces")
-            lower_case = input("Try again")
+            lower_case = input("Try again \n")
 
         letter = lower_case.lower()
 
@@ -36,9 +36,17 @@ def game(lifes):
         if (lifes > 0) and (letter not in word):
             counter += 1
             for i in range(counter):
-                x = int(i)
-                print(the_hang_text[x])
-                x+1
+                counter_animation = int(i)
+                if counter_animation < 9:
+                    print(the_hang_text[counter_animation])
+                elif counter_animation == 10 or counter_animation == 11:
+                    counter_animation=9
+                    print(the_hang_text[counter_animation])
+                    print(the_hang_text[8])
+                elif counter_animation == 12:
+                    counter_animation=10
+                    print(the_hang_text[counter_animation])
+                counter_animation+1
                 time.sleep(0.3)
         if letter not in word:
             lifes -= 1
