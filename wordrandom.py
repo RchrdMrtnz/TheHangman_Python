@@ -1,10 +1,12 @@
 import random
 num = random.randint(1, 3)
+
+
 def wordrand(num):
-    animals = ["bull", "birds", "cow", "chicken", "hen", "donkey", "goat", "horse", "pig",
-               "rabbit", "sheep", "turkey", "goose", "prawn", "shrimp", "dolphin", "shark"]
+    animals = ["bull", "birds", "cow", "chicken", "hen", "donkey", "goat", "horse",
+               "pig", "rabbit", "sheep", "turkey", "goose", "prawn", "shrimp", "dolphin", "shark"]
     colors = ["white", "black", "gray", "yellow",
-              "orange", "brown", "golden", "silver","purple"]
+              "orange", "brown", "golden", "silver", "purple"]
     things = ["bucket", "carabiner", "corkscrew",
               "flashlight", "hammer", "padlock", "golden", "silver"]
     if num == 1:

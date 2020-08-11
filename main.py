@@ -26,3 +26,4 @@ while goback == "y":
     vidas = 10
     game(lifes)
     goback = input("Do you want to try again useless? Y/N \n")
+
