@@ -24,7 +24,7 @@ game(lifes)
 goback = input("\nDo you want to try again useless? Y/N\n")
 
 if goback == "y" or goback == "Y" or goback == "yes" or goback=="YES":
-    while goback == "y" or "Y" or "yes":
+    while True:
         title()
         vidas = 10
         game(lifes)
@@ -32,8 +32,9 @@ if goback == "y" or goback == "Y" or goback == "yes" or goback=="YES":
         if goback == "y" or goback == "Y" or goback == "yes" or goback=="YES":
             pass
         elif goback == "n" or goback == "N" or goback == "not" or goback == "NOT":
+            print("are you a chicken?\nThis is not for cowards")
+            time.sleep(0.5) 
             break
-
 elif goback == "n" or goback == "N" or goback == "not" or goback == "NOT":
     print("are you a chicken?\nThis is not for cowards")
     time.sleep(0.5)

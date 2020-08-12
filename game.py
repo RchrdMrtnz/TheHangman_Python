@@ -3,6 +3,7 @@ import time
 import random
 from wordrandom import wordrand
 from difficulty import difficulty
+from record import *      
 def game(lifes):
     num = random.randint(1, 3)
     word = wordrand(num)
@@ -28,6 +29,9 @@ def game(lifes):
                 fails += 1
         if fails == 0:
             print("\n Congratulations, you're not a fool ... totally")
+            record()
+            print("Hall Of Fame\n")
+            leer()
             break
         if (lifes > 0) and (letter not in word):
             counter += 1
