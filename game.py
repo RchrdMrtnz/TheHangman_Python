@@ -3,7 +3,7 @@ import time
 import random
 from wordrandom import wordrand
 from difficulty import difficulty
-from record import *      
+from record import leer, record     
 def game(lifes):
     num = random.randint(1, 3)
     word = wordrand(num)
@@ -30,8 +30,9 @@ def game(lifes):
         if fails == 0:
             print("\n Congratulations, you're not a fool ... totally")
             record()
-            print("Hall Of Fame\n")
-            leer()
+            see_records=input("if you wanna see the famous table press 1")
+            if see_records=="1":
+                leer()
             break
         if (lifes > 0) and (letter not in word):
             counter+= 1
@@ -43,15 +44,26 @@ def game(lifes):
                 time.sleep(0.3)
         if letter not in word:
             lifes -= 1
-            print("\n How pathetic, you failed \n")
-            print(f"Do you have {lifes} lifes")
+            print("\nHow pathetic, you failed \n")
+            print(f"Do you have {lifes} lifes \n")
         if lifes == 0:
+            time.sleep(1.2)
             print(f"Seriously? you could not guess \"{word}\" \n")
+            time.sleep(1.5)
             print("You lost, from now on your neck won't be the same, idiot \n")
+            time.sleep(1.2)
             print("you are dead man")
-            for i in range(0,9):
+            time.sleep(1.2)
+            for i in range(0,10):
                 print(the_hang_text[i])
+                time.sleep(0.5)
     else:
-        print("Thanks for wasting my time \n")
+        print("\nThanks for wasting my time \n")
         time.sleep(0.2)
+        see_records=input("if you wanna see the famous table press 1 ")
+        if see_records=="1":
+            leer()
     return lifes
+if __name__ == "__main__":
+    lifes=1
+    game(lifes)

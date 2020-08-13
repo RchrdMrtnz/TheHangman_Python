@@ -1,8 +1,10 @@
+import time
+date=time.ctime()
 def record():
     try:
         record=open("record.txt","a")
         hall_of_fame=input("Congratulations you win, tell me your name to put it in the hall of fame \n")
-        texto=f"This stupid win \"{hall_of_fame}\"\n"
+        texto=f"This stupid win \"{hall_of_fame}\" the day {date}\n"
         record.write(texto)
         record.close
     except SyntaxError:
