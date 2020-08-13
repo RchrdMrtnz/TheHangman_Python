@@ -34,19 +34,12 @@ def game(lifes):
             leer()
             break
         if (lifes > 0) and (letter not in word):
-            counter += 1
+            counter+= 1
             for i in range(counter):
-                counter_animation = int(i)
-                if counter_animation < 8:
-                    print(the_hang_text[counter_animation])
-                elif counter_animation == 9 or counter_animation == 10:
-                    counter_animation=8
-                    print(the_hang_text[counter_animation])
+                if i < 8:
+                    print(the_hang_text[i])
+                elif i >= 9:
                     print(the_hang_text[8])
-                elif counter_animation == 11:
-                    counter_animation=9
-                    print(the_hang_text[counter_animation])
-                counter_animation+1
                 time.sleep(0.3)
         if letter not in word:
             lifes -= 1
@@ -55,6 +48,9 @@ def game(lifes):
         if lifes == 0:
             print(f"Seriously? you could not guess \"{word}\" \n")
             print("You lost, from now on your neck won't be the same, idiot \n")
+            print("you are dead man")
+            for i in range(0,9):
+                print(the_hang_text[i])
     else:
         print("Thanks for wasting my time \n")
         time.sleep(0.2)
