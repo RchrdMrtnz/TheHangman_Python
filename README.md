@@ -15,9 +15,9 @@ Run the main.py file for start the game, this file import the modules necessary 
   * Everything runs here, takes all modules to execute
 ***
 * ####  for donations
-  * *Paypal:*rchrd.pdrz.mrtnz@gmail.com
-  * *Bitcoin:*3Q4Bbgwm28Y1HVSVs6f88tdqosBEEH6p9g
-License
-----
-MIT
+  * *Paypal:* rchrd.pdrz.mrtnz@gmail.com
+  * *Bitcoin:* 3Q4Bbgwm28Y1HVSVs6f88tdqosBEEH6p9g
+  
+ ***
+*License MIT*
 **Free Software**
