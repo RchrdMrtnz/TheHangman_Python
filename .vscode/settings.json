@@ -1,22 +1,23 @@
 {
-    "python.pythonPath": "/usr/bin/python",
+    "python.pythonPath": "/home/richard/.local/share/virtualenvs/the_hangman-v7HgdgVU/bin/python",
     "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#65c89b",
-        "activityBar.activeBorder": "#945bc4",
-        "activityBar.background": "#65c89b",
-        "activityBar.foreground": "#15202b",
-        "activityBar.inactiveForeground": "#15202b99",
-        "activityBarBadge.background": "#945bc4",
+        "activityBar.activeBackground": "#4f5c72",
+        "activityBar.activeBorder": "#38272e",
+        "activityBar.background": "#4f5c72",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#38272e",
         "activityBarBadge.foreground": "#e7e7e7",
-        "statusBar.background": "#42b883",
-        "statusBar.foreground": "#15202b",
-        "statusBarItem.hoverBackground": "#359268",
-        "titleBar.activeBackground": "#42b883",
-        "titleBar.activeForeground": "#15202b",
-        "titleBar.inactiveBackground": "#42b88399",
-        "titleBar.inactiveForeground": "#15202b99"
+        "statusBar.background": "#3a4454",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#4f5c72",
+        "titleBar.activeBackground": "#3a4454",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#3a445499",
+        "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#42b883",
+    "peacock.color": "#3A4454",
     "editor.fontLigatures": true,
-    "editor.fontSize": 18
+    "editor.fontSize": 18,
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
 }

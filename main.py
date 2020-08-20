@@ -1,4 +1,5 @@
 import os
+import platform
 import time
 import random
 from wordrandom import wordrand
@@ -7,9 +8,14 @@ from game import game
 from title import title
 from record import record, leer
 
+system=platform.system()
 title()
-os.system(
-    'read -s -n 1 -p "\nOnly silly children become hanged, now press any key \n"')
+if system == "Linux":
+    os.system(
+        'read -s -n 1 -p "\nOnly silly children become hanged, now press any key \n"')
+elif system == "Windows":
+    print("Only silly children become hanged, now press")
+    os.system('pause')
 time.sleep(0.2)
 try:
     level = int(input(

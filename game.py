@@ -5,8 +5,7 @@ from wordrandom import wordrand
 from difficulty import difficulty
 from record import leer, record     
 def game(lifes):
-    num = random.randint(1, 3)
-    word = wordrand(num)
+    word = wordrand()
     yourword= " "
     counter = 0
     the_hang_text = ["\n________", "|/      |", "|       |", "|      (_)", "|      _|/", "|       |", "|      /|", "|        ", "|        ", "|____________"]
@@ -62,7 +61,10 @@ def game(lifes):
         time.sleep(0.2)
         see_records=input("if you wanna see the famous table press 1 ")
         if see_records=="1":
-            leer()
+            try:
+                leer()
+            except:
+                print("This not easy stupid")
     return lifes
 if __name__ == "__main__":
     lifes=1

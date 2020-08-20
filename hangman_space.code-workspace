@@ -1,0 +1,28 @@
+{	
+	"python.envFile": "/home/richard/Documentos/Developer_Work/PythonWeb/src",
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.maxTokenizationLineLength":200000,
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#4f5c72",
+			"activityBar.activeBorder": "#38272e",
+			"activityBar.background": "#4f5c72",
+			"activityBar.foreground": "#e7e7e7",
+			"activityBar.inactiveForeground": "#e7e7e799",
+			"activityBarBadge.background": "#38272e",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"statusBar.background": "#3a4454",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#4f5c72",
+			"titleBar.activeBackground": "#3a4454",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#3a445499",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+		"peacock.color": "#3A4454"
+	}
+}
