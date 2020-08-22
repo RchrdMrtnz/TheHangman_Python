@@ -5,7 +5,7 @@ Run the main.py file for start the game, this file import the modules necessary 
 ### Modules:
  * ### Difficulty:
    * Module content the game difficulty, the function "difficulty" receives the parameter "level" and uses a "if" to return game level, necessary for generate the lives to the player
-* ### Wordeandom:
+* ### Wordrandom:
   * This module is used to take a random word from the "word list" that contains 5800 words for use,  will then be used as a secret word.
 * ### Record:  
   * Creates a .txt file to save players who won the game and a function to see the file.txt
@@ -17,8 +17,8 @@ Run the main.py file for start the game, this file import the modules necessary 
   * Uses library cx_Freeze to generate an executable version
 ***
 * ####  for donations
-  * *Paypal:* rchrd.pdrz.mrtnz@gmail.com
-  * *Bitcoin:* 3Q4Bbgwm28Y1HVSVs6f88tdqosBEEH6p9g
+  * **Paypal:** rchrd.pdrz.mrtnz@gmail.com
+  * **Bitcoin:** 3Q4Bbgwm28Y1HVSVs6f88tdqosBEEH6p9g
   
  ***
 *License MIT*
